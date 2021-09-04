@@ -83,8 +83,9 @@ const url4 = url2[1];
 
 // inline keyboard
 const inKey = [
-  [{text:'Join Channel',callback_data:'DOC'},{text:' Join Vip',callback_data:'HELP'}],
-  [{text: `${url3}`, url: `${url4}`}]
+  [{text:'List Channel',callback_data:'DOC'},{text:' Join Vip',callback_data:'HELP'}],
+  [{text: `${url3}`, url: `${url4}`}],
+  [{text:'Order Bot',callback_data:'ORDER'}]
 ];
 
 const inKey2 = [
@@ -380,6 +381,19 @@ bot.action('COMM',(ctx)=>{
         reply_markup:{
             inline_keyboard: [
                 [{text:'Kembali',callback_data:'HELP'}]
+            ]
+        }
+    })
+})
+
+bot.action('ORDER',(ctx)=>{
+    ctx.deleteMessage()
+    ctx.reply(`${helpcommand.botorder}`,{
+        parse_mode: 'HTML',
+        disable_web_page_preview: true,
+        reply_markup:{
+            inline_keyboard: [
+                [{text:'Kembali',callback_data:'ORDER'}]
             ]
         }
     })
