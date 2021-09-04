@@ -83,6 +83,7 @@ const url4 = url2[1];
 
 // inline keyboard
 const inKey = [
+  [{text:'Join Channel',callback_data:'DOC'},{text:' Join Vip',callback_data:'HELP'}],
   [{text: `${url3}`, url: `${url4}`}]
 ];
 
