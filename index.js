@@ -393,7 +393,7 @@ bot.action('ORDER',(ctx)=>{
         disable_web_page_preview: true,
         reply_markup:{
             inline_keyboard: [
-                [{text:'Kembali',callback_data:'ORDER'}]
+                [{text:'Join Group VIP',callback_data:'HELP'}]
             ]
         }
     })
