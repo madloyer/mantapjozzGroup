@@ -76,10 +76,14 @@ function documentation(ctx){
     return `BOT di buat menggunakan \n<b>Program:</b> Node JS \n<b>API:</b> <a href='https://telegraf.js.org/'>Telegraf</a>`;
 }
 
+
+const url2 = process.env.LINKCHANNEL.split(/[\,-]+/);
+const url3 = url2[0];
+const url4 = url2[1];
+
 // inline keyboard
 const inKey = [
   [{text: `${url3}`, url: `${url4}`}]
-  [{text:'Join Channel',callback_data:'DOC'},{text:' Join Vip',callback_data:'HELP'}],
 ];
 
 const inKey2 = [
