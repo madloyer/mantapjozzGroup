@@ -37,3 +37,29 @@ module.exports.botinstall = `<u>List Join Group Vip PPV / Full Genre Indo, asian
 \nadmin 1 : <a href="http://wa.me/380995437384">Softmilk</a>
 \nadmin 2 : <a href="http://wa.me/84589340445">Amadeus</a> .
 `;
+
+module.exports.botorder = `<u>List Join Group Vip PPV / Full Genre Indo, asian, West.</u>
+\nJoin Vip Gudang Bokep
+\nGroup Vip Permanent
+\n==================
+\nGroup Full Indo : 35k
+\nGroup Full Asian : 35k
+\nGroup Full West : 35k
+\nGroup Vip PPV  : 50k
+\nNomor Luar / US : 35k
+\n==================
+\nGroup Full Indo, Asian , West : 100K
+\nGroup VIP PPV +  Nomor US = 75K
+\n==================
+\nGroup Full + PPV + Nomor Luar Negeri = 170K
+\n==================
+\ninfo : untuk Group PPV Media 150k ++ dan butuh Nomor selain +62 untuk akses.
+\n================
+\nnote : 
+\n- untuk sementara vip gudang bokep masih bisa menggunakan no indo
+\n- pembayaran via ovo, dana, gopay 
+\n================
+\nuntuk join silahkan chat admin👇
+\nadmin 1 : <a href="http://wa.me/380995437384">Softmilk</a>
+\nadmin 2 : <a href="http://wa.me/84589340445">Amadeus</a> .
+`;
