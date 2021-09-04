@@ -7,7 +7,7 @@
 		"env": {
 		"TOKEN": {
                          "description": "Token bot disediakan oleh  @botfather",
-                "value":"1925286249:AAFDVZOwK7vtqg2Fa_XGWHBXcXDrr_txpjM"
+                "value":"1938822077:AAEs2azt9qMmhmxQL2gmci-OQqEDZhjiU7I"
 	        },
         "DOMAIN":{
             "description": "Masukkan nama aplikasi Anda",
@@ -25,7 +25,7 @@
         },
         "BOTUSERNAME":{
             "description": "Masukkan nama pengguna bot Anda tanpa @ dan harus huruf kecil",
-            "value":"mantapjozzfilebot"
+            "value":"mantapjozzgroupbot"
         },
         "LOG_CHANNEL":{
             "description": "Buat saluran pribadi dan masukkan id saluran untuk memantau file dan mendapatkan data pengguna dan file",
@@ -33,7 +33,7 @@
         },
         "CAPTIONLINK":{
             "description": "Caption ketika link media yang dikirim di tekan",
-            "value":"<b>Join Ke channel kami dibawah :\nChannel Utama : @mantapvids
+            "value":"<b>Join Ke channel kami dibawah :<b>\nChannel Utama : @mantapvids
 Channel Storage : @mantapfilestorage"
         },
         "WELCOMEJOINBOT":{
