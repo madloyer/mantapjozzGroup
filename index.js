@@ -87,6 +87,7 @@ const inKey = [
 
 const inKey2 = [
   [{text: `${url3}`, url: `${url4}`}]
+  [{text:'Join Channel',callback_data:'DOC'},{text:' Join Vip',callback_data:'HELP'}],
 ];
 
 //BOT START
