@@ -73,7 +73,7 @@ function messagelink(ctx){
     return `Kirim BOT video, photo dan dokumen.`;
 }
 function documentation(ctx){
-    return `BOT di buat menggunakan \n<b>Program:</b> Node JS \n<b>API:</b> <a href='https://telegraf.js.org/'>Telegraf</a>`;
+    return `List Channel Mantapjozz\nChannel : <a href="t.me/mantapvids">Mantapvids</a>\nChannel : <a href="https://t.me/mantapfilestorage">Mantap Streaming Bot</a>\nGroup Chat : <a href="https://t.me/joinchat/Ssws183am-adKXlP">Free Tele Chat</a>\nWebsite : <a href="https://doujindes.blogspot.com">Doujindesu</a>`;
 }
 
 
@@ -309,7 +309,7 @@ bot.action('POP',(ctx)=>{
 //DEFINING DOC CALLBACK
 bot.action('DOC',(ctx)=>{
     ctx.deleteMessage()
-    ctx.reply(`https://t.me/${process.env.BOTUSERNAME}?start=grp_${ctx.message.media_group_id}`,{
+    ctx.reply(`${documentation(ctx)}`,{
         parse_mode: 'HTML',
         reply_markup:{
             inline_keyboard: [
