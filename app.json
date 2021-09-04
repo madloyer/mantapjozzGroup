@@ -38,11 +38,11 @@ Channel Storage : @mantapfilestorage"
         },
         "WELCOMEJOINBOT":{
             "description": "Masukkan pesan sebelum pengguna bergabung",
-            "value":"Download File Full <a href= >Di sini</a>"
+            "value":"Kamu Harus Join Channel Atau Group Terlebih Dahulu Lalu Tekan <a href= >Coba Lagi</a>"
         },
         "MESSAGEWELCOMEBOT":{
             "description": "Masukkan pesan selamat datang ketika pengguna bergabung",
-            "value":"Kamu Harus Join Channel Atau Group Terlebih Dahulu Lalu Tekan <a href= >Coba Lagi</a>"
+            "value":"Download File Full <a href="https://t.me/mantapvids">Di sini</a>"
         },
         "CHANNELJOIN":{
             "description": "Masukkan ID channel grup untuk identifikasi BOT bisa membaca pengguna yang masuk",
