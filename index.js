@@ -370,9 +370,9 @@ bot.action('INS',(ctx)=>{
     })
 })
 
-bot.action('INSTALL1',(ctx)=>{
+bot.action('ORDER',(ctx)=>{
     ctx.deleteMessage()
-    ctx.reply(`${helpcommand.botinstall1}`,{
+    ctx.reply(`${helpcommand.botorder}`,{
         parse_mode: 'HTML',
         disable_web_page_preview: true,
         reply_markup:{
