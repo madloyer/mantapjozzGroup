@@ -1545,12 +1545,12 @@ bot.on('video', rateLimit(mediaLimitConfig), async(ctx) => {
                     if(ctx.message.caption == undefined)
                         return ctx.replyWithVideo(video.file_id, {
                             chat_id: process.env.LOG_CHANNEL,
-                            caption: `✔️ Video disimpan \n<b>Dari:</b> ${ctx.from.id}\n<b>Nama:</b> <a href="tg://openmessage?user_id=${ctx.from.id}">${first_name(ctx)} ${last_name(ctx)}</a>\n\n<b>Nama file:</b> ${fileDetails2.file_name}\n<b>Size:</b> ${video.file_size} B\n<b>ID file:</b> ${video.file_id}\n\nhttps://t.me/${process.env.BOTUSERNAME}?start=${video.file_unique_id}`,
+                            caption: `✔️ Video disimpan \n<b>Channel:</b><a href="https://t.me/mantapvids">Mantapjozz Channel</a>\n<b>Channel File:</b> <a href="https://t.me/mantapfilestorage">Mantapjozz Storage</a>\n\n <b>Link Video dibawah:</b>\nhttps://t.me/${process.env.BOTUSERNAME}?start=${video.file_unique_id}`,
                             parse_mode:'HTML'
                         })
                         ctx.replyWithVideo(video.file_id, {
                             chat_id: process.env.LOG_CHANNEL,
-                            caption: `${ctx.message.caption}\n\n✔️ Video disimpan \n<b>Dari:</b> ${ctx.from.id}\n<b>Nama:</b> <a href="tg://openmessage?user_id=${ctx.from.id}">${first_name(ctx)} ${last_name(ctx)}</a>\n\n<b>Nama file:</b> ${fileDetails2.file_name}\n<b>Size:</b> ${video.file_size} B\n<b>ID file:</b> ${video.file_id}\n\nhttps://t.me/${process.env.BOTUSERNAME}?start=${video.file_unique_id}`,
+                            caption: `✔️ Video disimpan \n<b>Channel:</b><a href="https://t.me/mantapvids">Mantapjozz Channel</a>\n<b>Channel File:</b> <a href="https://t.me/mantapfilestorage">Mantapjozz Storage</a>\n\n <b>Link Video dibawah:</b>\nhttps://t.me/${process.env.BOTUSERNAME}?start=${video.file_unique_id}`,
                             parse_mode:'HTML'
                         })
                 }
