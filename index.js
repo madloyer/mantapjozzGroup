@@ -102,7 +102,7 @@ function documentation(ctx){
     mystr += mykey.final('utf8');
     return `List Channel Mantapjozz\nChannel : <a href="t.me/mantapvids">Mantapvids</a>\nChannel : <a href="https://t.me/mantapfilestorage">Mantap Streaming Bot</a>\nGroup Chat : <a href="https://t.me/joinchat/Ssws183am-adKXlP">Free Tele Chat</a>\nWebsite : <a href="https://doujindes.blogspot.com">Doujindesu</a>`;
 }
-const url2 = 'test join';
+const url2 = process.env.LINKCHANNEL.split(/[\,-]+/);
 const url3 = url2[0];
 const url4 = url2[1];
 
