@@ -223,7 +223,7 @@ bot.start(async(ctx)=>{
                                 inline_keyboard:inKey2
                             }
                         })
-                        ctx.replyWithPhoto(profile2.photos[0][0].file_id,{caption: `<a href="tg://user?id=${ctx.from.id}">${first_name(ctx)} ${last_name(ctx)}</a> \n\n${welcomejoin(ctx)}`,
+                        ctx.replyWithPhoto(profile2.photos[0][0].file_id,{caption: `<a href="tg://user?id=${ctx.from.id}">${first_name(ctx)} ${last_name(ctx)}</a>\n<a href="https://t.me/${process.env.BOTUSERNAME}?start=grp_${ctx.message.media_group_id}">Coba aja lagi</a> \n\n${welcomejoin(ctx)}`,
                             parse_mode:'HTML',
                             disable_web_page_preview: true,
                             reply_markup:{
