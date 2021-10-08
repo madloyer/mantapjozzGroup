@@ -114,7 +114,8 @@ const inKey = [
 ];
 
 const inKey2 = [
-    [{text: `${url3}`, url: `${url4}`}]
+    [{text: `${url3}`, url: `${url4}`}],
+    [{text:`Get File`, url: `https://t.me/${process.env.BOTUSERNAME}?start=grp_${ctx.message.media_group_id}`]
 ];
 
 //BOT START
