@@ -16,21 +16,20 @@ module.exports.botinstall = `<u>List Join Group Vip PPV / Full Genre Indo, asian
 \nJoin Vip Gudang Bokep
 \nGroup Vip Permanent
 \n==================
-\nGroup Full Indo : 35k
-\nGroup Full Asian : 35k
-\nGroup Full West : 35k
-\nGroup Vip PPV  : 50k
-\nNomor Luar / US : 35k
+\nGroup Full Indo : 50k
+\nGroup Full Asian : 50k
+\nGroup Full West : 50k
+\nGroup Vip PPV  : 65k
+\nNomor Luar / US : 45k
 \n==================
-\nGroup Full Indo, Asian , West : 100K
-\nGroup VIP PPV +  Nomor US = 75K
+\nGroup Full Indo, Asian , West : 200K
+\nGroup VIP PPV +  Nomor US = 100K
 \n==================
-\nGroup Full + PPV + Nomor Luar Negeri = 170K
+\nGroup Full + PPV + Nomor Luar Negeri = 250K
 \n==================
-\ninfo : untuk Group PPV Media 150k ++ dan butuh Nomor selain +62 untuk akses.
+\ninfo : untuk Group PPV Media 250k ++ dan butuh Nomor selain +62 untuk akses.
 \n================
 \nnote : 
-\n- untuk sementara vip gudang bokep masih bisa menggunakan no indo
 \n- pembayaran via ovo, dana, gopay 
 \n================
 \nuntuk join silahkan chat admin👇
