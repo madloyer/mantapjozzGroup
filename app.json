@@ -31,8 +31,7 @@
         },
         "CAPTIONLINK":{
             "description": "Caption ketika link media yang dikirim di tekan",
-            "value":"<b>Join Ke channel kami dibawah :<b>\nChannel Utama : @mantapvids
-Channel Storage : @mantapfilestorage"
+            "value":"<b>Join Ke channel kami dibawah :<b>\nChannel Utama : @mantapvids"
         },
         "WELCOMEJOINBOT":{
             "description": "Masukkan pesan sebelum pengguna bergabung",
