@@ -19,9 +19,7 @@
                },
         "ADMIN":{
             "description": "Masukkan id akun kamu",
-            "value":"1095175345
-1281619082
-1359778030"
+            "value":"1095175345"
         },
         "BOTUSERNAME":{
             "description": "Masukkan nama pengguna bot Anda tanpa @ dan harus huruf kecil",
