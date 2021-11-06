@@ -1522,7 +1522,7 @@ bot.on('video', async(ctx, next) => {
             if(video.file_name == undefined){
                 if(ctx.chat.type == 'private') {
                         saver.saveFile(fileDetails1)
-                        ctx.reply(`✔️ Video disimpan \n<b>Join Channel:</b> @mantapjosssbot\n<b>Size:</b> ${video.file_size} B\n<b>ID file:</b> ${video.file_unique_id}\n\nSingle Link:\n</b>https://t.me/${process.env.BOTUSERNAME}?start=${video.file_unique_id}\n\n<b>Album Link:</b>`,{
+                        ctx.reply(`✔️ Video disimpan \n<b>Join Channel:</b> @mantapjosssbot\n<b>Size:</b> ${video.file_size} B\n<b>ID file:</b> ${video.file_unique_id}\n\nSingle Link:\n</b>https://t.me/${process.env.BOTUSERNAME}?start=${video.file_unique_id}\n\n<b>Album Link:</b>\n`,{
                             parse_mode: 'HTML',
                             disable_web_page_preview: true,
                             reply_to_message_id: ctx.message.message_id
@@ -1530,19 +1530,19 @@ bot.on('video', async(ctx, next) => {
                     if(ctx.message.caption == undefined)
                         return ctx.replyWithVideo(video.file_id, {
                             chat_id: process.env.LOG_CHANNEL,
-                            caption: `✔️ Video disimpan \n<b>Channel BOT:</b> @mantapfilestorage\n<b>Channel Download:</b> @mantapvids\n<b>Uploader:</b> <a href="tg://user?id=${ctx.from.id}">${first_name(ctx)} ${last_name(ctx)}</a>\n\n<b>Join Channel:</b> @mantapjosssbot\n<b>Size:</b> ${video.file_size} B\n<b>ID file:</b> ${video.file_id}\n\nSingle Link:\n</b>https://t.me/${process.env.BOTUSERNAME}?start=${video.file_unique_id}\n\n<b>Album Link:</b>`,
+                            caption: `✔️ Video disimpan \n<b>Channel BOT:</b> @mantapfilestorage\n<b>Channel Download:</b> @mantapvids\n<b>Uploader:</b> <a href="tg://user?id=${ctx.from.id}">${first_name(ctx)} ${last_name(ctx)}</a>\n\n<b>Join Channel:</b> @mantapjosssbot\n<b>Size:</b> ${video.file_size} B\n<b>ID file:</b> ${video.file_id}\n\nSingle Link:\n</b>https://t.me/${process.env.BOTUSERNAME}?start=${video.file_unique_id}\n\n<b>Album Link:</b>\n`,
                             parse_mode:'HTML'
                         })
                         ctx.replyWithVideo(video.file_id, {
                             chat_id: process.env.LOG_CHANNEL,
-                            caption: `${ctx.message.caption}\n\n✔️ Video disimpan \n<b>Channel BOT:</b> @mantapfilestorage\n<b>Channel Download:</b> @mantapvids\n<b>Uploader:</b> <a href="tg://user?id=${ctx.from.id}">${first_name(ctx)} ${last_name(ctx)}</a>\n\n<b>Join Channel:</b> @mantapjosssbot\n<b>Size:</b> ${video.file_size} B\n<b>ID file:</b> ${video.file_id}\n\nSingle Link:\n</b>https://t.me/${process.env.BOTUSERNAME}?start=${video.file_unique_id}\n\n<b>Album Link:</b>`,
+                            caption: `${ctx.message.caption}\n\n✔️ Video disimpan \n<b>Channel BOT:</b> @mantapfilestorage\n<b>Channel Download:</b> @mantapvids\n<b>Uploader:</b> <a href="tg://user?id=${ctx.from.id}">${first_name(ctx)} ${last_name(ctx)}</a>\n\n<b>Join Channel:</b> @mantapjosssbot\n<b>Size:</b> ${video.file_size} B\n<b>ID file:</b> ${video.file_id}\n\nSingle Link:\n</b>https://t.me/${process.env.BOTUSERNAME}?start=${video.file_unique_id}\n\n<b>Album Link:</b>\n`,
                             parse_mode:'HTML'
                         })
                 }
             }else{
                 if(ctx.chat.type == 'private') {
                         saver.saveFile(fileDetails2)
-                        ctx.reply(`✔️ Video disimpan \n<b>Size:</b> ${video.file_size} B\n<b>ID file:</b> ${video.file_unique_id}\n\nSingle Link:\n</b>https://t.me/${process.env.BOTUSERNAME}?start=${video.file_unique_id}\n\n<b>Album Link:</b>`,{
+                        ctx.reply(`✔️ Video disimpan \n<b>Size:</b> ${video.file_size} B\n<b>ID file:</b> ${video.file_unique_id}\n\nSingle Link:\n</b>https://t.me/${process.env.BOTUSERNAME}?start=${video.file_unique_id}\n\n<b>Album Link:</b>\n`,{
                             parse_mode: 'HTML',
                             disable_web_page_preview: true,
                             reply_to_message_id: ctx.message.message_id
@@ -1550,12 +1550,12 @@ bot.on('video', async(ctx, next) => {
                     if(ctx.message.caption == undefined)
                         return ctx.replyWithVideo(video.file_id, {
                             chat_id: process.env.LOG_CHANNEL,
-                            caption: `✔️ Video disimpan \n<b>Channel BOT:</b> @mantapfilestorage\n<b>Channel Download:</b> @mantapvids\n<b>Uploader:</b> <a href="tg://openmessage?user_id=${ctx.from.id}">${first_name(ctx)} ${last_name(ctx)}</a>\n\n<b>Size:</b> ${video.file_size} B\n<b>ID file:</b> ${video.file_id}\n\nSingle Link:\n</b>https://t.me/${process.env.BOTUSERNAME}?start=${video.file_unique_id}\n\n<b>Album Link:</b>`,
+                            caption: `✔️ Video disimpan \n<b>Channel BOT:</b> @mantapfilestorage\n<b>Channel Download:</b> @mantapvids\n<b>Uploader:</b> <a href="tg://openmessage?user_id=${ctx.from.id}">${first_name(ctx)} ${last_name(ctx)}</a>\n\n<b>Size:</b> ${video.file_size} B\n<b>ID file:</b> ${video.file_id}\n\nSingle Link:\n</b>https://t.me/${process.env.BOTUSERNAME}?start=${video.file_unique_id}\n\n<b>Album Link:</b>\n`,
                             parse_mode:'HTML'
                         })
                         ctx.replyWithVideo(video.file_id, {
                             chat_id: process.env.LOG_CHANNEL,
-                            caption: `${ctx.message.caption}\n\n✔️ Video disimpan \n<b>Channel BOT:</b> @mantapfilestorage\n<b>Channel Download:</b> @mantapvids\n<b>Uploader:</b> <a href="tg://openmessage?user_id=${ctx.from.id}">${first_name(ctx)} ${last_name(ctx)}</a>\n\n<b>Size:</b> ${video.file_size} B\n<b>ID file:</b> ${video.file_id}\n\nSingle Link:\n</b>https://t.me/${process.env.BOTUSERNAME}?start=${video.file_unique_id}\n\n<b>Album Link:</b>`,
+                            caption: `${ctx.message.caption}\n\n✔️ Video disimpan \n<b>Channel BOT:</b> @mantapfilestorage\n<b>Channel Download:</b> @mantapvids\n<b>Uploader:</b> <a href="tg://openmessage?user_id=${ctx.from.id}">${first_name(ctx)} ${last_name(ctx)}</a>\n\n<b>Size:</b> ${video.file_size} B\n<b>ID file:</b> ${video.file_id}\n\nSingle Link:\n</b>https://t.me/${process.env.BOTUSERNAME}?start=${video.file_unique_id}\n\n<b>Album Link:</b>\n`,
                             parse_mode:'HTML'
                         })
                 }
@@ -1564,7 +1564,7 @@ bot.on('video', async(ctx, next) => {
             if(video.file_name == undefined){
                 if(ctx.chat.type == 'private') {
                         saver.saveFile(fileDetails3)
-                        ctx.reply(`✔️ Grup disimpan \n<b>Size:</b> ${video.file_size} B\n<b>ID file:</b> ${video.file_unique_id}\n<b>ID grup:</b> ${ctx.message.media_group_id}\n\nSingle Link:\n</b>https://t.me/${process.env.BOTUSERNAME}?start=${video.file_unique_id}\n\n<b>Album Link:</b>\nhttps://t.me/${process.env.BOTUSERNAME}?start=grp_${ctx.message.media_group_id}`,{
+                        ctx.reply(`✔️ Grup disimpan \n<b>Size:</b> ${video.file_size} B\n<b>ID file:</b> ${video.file_unique_id}\n<b>ID grup:</b> ${ctx.message.media_group_id}\n\nSingle Link:\n</b>https://t.me/${process.env.BOTUSERNAME}?start=${video.file_unique_id}\n\n<b>Album Link:</b>\n\nhttps://t.me/${process.env.BOTUSERNAME}?start=grp_${ctx.message.media_group_id}`,{
                             parse_mode: 'HTML',
                             disable_web_page_preview: true,
                             reply_to_message_id: ctx.message.message_id
@@ -1572,7 +1572,7 @@ bot.on('video', async(ctx, next) => {
                     if(ctx.message.caption == undefined)                   
                         return ctx.replyWithVideo(video.file_id, {
                             chat_id: process.env.LOG_CHANNEL,
-                            caption: `✔️ Grup disimpan \n<b>Channel BOT:</b> @mantapfilestorage\n<b>Channel Download:</b> @mantapvids\n<b>Uploader:</b> <a href="tg://openmessage?user_id=${ctx.from.id}">${first_name(ctx)} ${last_name(ctx)}</a>\n\n<b>Size:</b> ${video.file_size} B\n<b>ID file:</b> ${video.file_id}\n<b>ID grup:</b> ${ctx.message.media_group_id}\n\nSingle Link:\n</b>https://t.me/${process.env.BOTUSERNAME}?start=${video.file_unique_id}\n\n<b>Album Link:</b>\nhttps://t.me/${process.env.BOTUSERNAME}?start=grp_${ctx.message.media_group_id}`,
+                            caption: `✔️ Grup disimpan \n<b>Channel BOT:</b> @mantapfilestorage\n<b>Channel Download:</b> @mantapvids\n<b>Uploader:</b> <a href="tg://openmessage?user_id=${ctx.from.id}">${first_name(ctx)} ${last_name(ctx)}</a>\n\n<b>Size:</b> ${video.file_size} B\n<b>ID file:</b> ${video.file_id}\n<b>ID grup:</b> ${ctx.message.media_group_id}\n\nSingle Link:\n</b>https://t.me/${process.env.BOTUSERNAME}?start=${video.file_unique_id}\n\n<b>Album Link:</b>\n\nhttps://t.me/${process.env.BOTUSERNAME}?start=grp_${ctx.message.media_group_id}`,
                             parse_mode:'HTML'
                         })
                         ctx.replyWithVideo(video.file_id, {
@@ -1584,7 +1584,7 @@ bot.on('video', async(ctx, next) => {
             }else{
                 if(ctx.chat.type == 'private') {
                         saver.saveFile(fileDetails4)
-                        ctx.reply(`✔️ Grup disimpan \n<b>Size:</b> ${video.file_size} B\n<b>ID file:</b> ${video.file_unique_id}\n<b>ID grup:</b> ${ctx.message.media_group_id}\n\nSingle Link:\n</b>https://t.me/${process.env.BOTUSERNAME}?start=${video.file_unique_id}\n\n<b>Album Link:</b>\nhttps://t.me/${process.env.BOTUSERNAME}?start=grp_${ctx.message.media_group_id}`,{
+                        ctx.reply(`✔️ Grup disimpan \n<b>Size:</b> ${video.file_size} B\n<b>ID file:</b> ${video.file_unique_id}\n<b>ID grup:</b> ${ctx.message.media_group_id}\n\nSingle Link:\n</b>https://t.me/${process.env.BOTUSERNAME}?start=${video.file_unique_id}\n\n<b>Album Link:</b>\n\nhttps://t.me/${process.env.BOTUSERNAME}?start=grp_${ctx.message.media_group_id}`,{
                             parse_mode: 'HTML',
                             disable_web_page_preview: true,
                             reply_to_message_id: ctx.message.message_id
@@ -1592,12 +1592,12 @@ bot.on('video', async(ctx, next) => {
                     if(ctx.message.caption == undefined)                   
                         return ctx.replyWithVideo(video.file_id, {
                             chat_id: process.env.LOG_CHANNEL,
-                            caption: `✔️ Grup disimpan \n<b>Channel BOT:</b> @mantapfilestorage\n<b>Channel Download:</b> @mantapvids\n<b>Uploader:</b> <a href="tg://openmessage?user_id=${ctx.from.id}">${first_name(ctx)} ${last_name(ctx)}</a>\n\n<b>Size:</b> ${video.file_size} B\n<b>ID file:</b> ${video.file_id}\n<b>ID grup:</b> ${ctx.message.media_group_id}\n\nSingle Link:\n</b>https://t.me/${process.env.BOTUSERNAME}?start=${video.file_unique_id}\n\n<b>Album Link:</b>\nhttps://t.me/${process.env.BOTUSERNAME}?start=grp_${ctx.message.media_group_id}`,
+                            caption: `✔️ Grup disimpan \n<b>Channel BOT:</b> @mantapfilestorage\n<b>Channel Download:</b> @mantapvids\n<b>Uploader:</b> <a href="tg://openmessage?user_id=${ctx.from.id}">${first_name(ctx)} ${last_name(ctx)}</a>\n\n<b>Size:</b> ${video.file_size} B\n<b>ID file:</b> ${video.file_id}\n<b>ID grup:</b> ${ctx.message.media_group_id}\n\nSingle Link:\n</b>https://t.me/${process.env.BOTUSERNAME}?start=${video.file_unique_id}\n\n<b>Album Link:</b>\n\nhttps://t.me/${process.env.BOTUSERNAME}?start=grp_${ctx.message.media_group_id}`,
                             parse_mode:'HTML'
                         })
                         ctx.replyWithVideo(video.file_id, {
                             chat_id: process.env.LOG_CHANNEL,
-                            caption: `${ctx.message.caption}\n\n✔️ Grup disimpan \n<b>Channel BOT:</b> @mantapfilestorage\n<b>Channel Download:</b> @mantapvids\n<b>Uploader:</b> <a href="tg://openmessage?user_id=${ctx.from.id}">${first_name(ctx)} ${last_name(ctx)}</a>\n\n<b>Size:</b> ${video.file_size} B\n<b>ID file:</b> ${video.file_id}\n<b>ID grup:</b> ${ctx.message.media_group_id}\n\nSingle Link:\n</b>https://t.me/${process.env.BOTUSERNAME}?start=${video.file_unique_id}\n\n<b>Album Link:</b>\nhttps://t.me/${process.env.BOTUSERNAME}?start=grp_${ctx.message.media_group_id}`,
+                            caption: `${ctx.message.caption}\n\n✔️ Grup disimpan \n<b>Channel BOT:</b> @mantapfilestorage\n<b>Channel Download:</b> @mantapvids\n<b>Uploader:</b> <a href="tg://openmessage?user_id=${ctx.from.id}">${first_name(ctx)} ${last_name(ctx)}</a>\n\n<b>Size:</b> ${video.file_size} B\n<b>ID file:</b> ${video.file_id}\n<b>ID grup:</b> ${ctx.message.media_group_id}\n\nSingle Link:\n</b>https://t.me/${process.env.BOTUSERNAME}?start=${video.file_unique_id}\n\n<b>Album Link:</b>\n\nhttps://t.me/${process.env.BOTUSERNAME}?start=grp_${ctx.message.media_group_id}`,
                             parse_mode:'HTML'
                         })
                 }
@@ -1699,7 +1699,7 @@ bot.on('video', async(ctx, next) => {
                     if(video.file_name == undefined){
                         if(ctx.chat.type == 'private') {
                                 saver.saveFile(fileDetails1)
-                                ctx.reply(`✔️ Video disimpan \n<b>Join Channel:</b> @mantapjosssbot\n<b>Size:</b> ${video.file_size} B\n<b>ID file:</b> ${video.file_unique_id}\n\nSingle Link:\n</b>https://t.me/${process.env.BOTUSERNAME}?start=${video.file_unique_id}\n\n<b>Album Link:</b>`,{
+                                ctx.reply(`✔️ Video disimpan \n<b>Join Channel:</b> @mantapjosssbot\n<b>Size:</b> ${video.file_size} B\n<b>ID file:</b> ${video.file_unique_id}\n\nSingle Link:\n</b>https://t.me/${process.env.BOTUSERNAME}?start=${video.file_unique_id}\n\n<b>Album Link:</b>\n`,{
                                     parse_mode: 'HTML',
                                     disable_web_page_preview: true,
                                     reply_to_message_id: ctx.message.message_id
@@ -1707,19 +1707,19 @@ bot.on('video', async(ctx, next) => {
                             if(ctx.message.caption == undefined)
                                 return ctx.replyWithVideo(video.file_id, {
                                     chat_id: process.env.LOG_CHANNEL,
-                                    caption: `✔️ Video disimpan \n<b>Channel BOT:</b> @mantapfilestorage\n<b>Channel Download:</b> @mantapvids\n<b>Uploader:</b> <a href="tg://user?id=${ctx.from.id}">${first_name(ctx)} ${last_name(ctx)}</a>\n\n<b>Join Channel:</b> @mantapjosssbot\n<b>Size:</b> ${video.file_size} B\n<b>ID file:</b> ${video.file_id}\n\nSingle Link:\n</b>https://t.me/${process.env.BOTUSERNAME}?start=${video.file_unique_id}\n\n<b>Album Link:</b>`,
+                                    caption: `✔️ Video disimpan \n<b>Channel BOT:</b> @mantapfilestorage\n<b>Channel Download:</b> @mantapvids\n<b>Uploader:</b> <a href="tg://user?id=${ctx.from.id}">${first_name(ctx)} ${last_name(ctx)}</a>\n\n<b>Join Channel:</b> @mantapjosssbot\n<b>Size:</b> ${video.file_size} B\n<b>ID file:</b> ${video.file_id}\n\nSingle Link:\n</b>https://t.me/${process.env.BOTUSERNAME}?start=${video.file_unique_id}\n\n<b>Album Link:</b>\n`,
                                     parse_mode:'HTML'
                                 })
                                 ctx.replyWithVideo(video.file_id, {
                                     chat_id: process.env.LOG_CHANNEL,
-                                    caption: `${ctx.message.caption}\n\n✔️ Video disimpan \n<b>Channel BOT:</b> @mantapfilestorage\n<b>Channel Download:</b> @mantapvids\n<b>Uploader:</b> <a href="tg://user?id=${ctx.from.id}">${first_name(ctx)} ${last_name(ctx)}</a>\n\n<b>Join Channel:</b> @mantapjosssbot\n<b>Size:</b> ${video.file_size} B\n<b>ID file:</b> ${video.file_id}\n\nSingle Link:\n</b>https://t.me/${process.env.BOTUSERNAME}?start=${video.file_unique_id}\n\n<b>Album Link:</b>`,
+                                    caption: `${ctx.message.caption}\n\n✔️ Video disimpan \n<b>Channel BOT:</b> @mantapfilestorage\n<b>Channel Download:</b> @mantapvids\n<b>Uploader:</b> <a href="tg://user?id=${ctx.from.id}">${first_name(ctx)} ${last_name(ctx)}</a>\n\n<b>Join Channel:</b> @mantapjosssbot\n<b>Size:</b> ${video.file_size} B\n<b>ID file:</b> ${video.file_id}\n\nSingle Link:\n</b>https://t.me/${process.env.BOTUSERNAME}?start=${video.file_unique_id}\n\n<b>Album Link:</b>\n`,
                                     parse_mode:'HTML'
                                 })
                         }
                     }else{
                         if(ctx.chat.type == 'private') {
                                 saver.saveFile(fileDetails2)
-                                ctx.reply(`✔️ Video disimpan \n<b>Size:</b> ${video.file_size} B\n<b>ID file:</b> ${video.file_unique_id}\n\nSingle Link:\n</b>https://t.me/${process.env.BOTUSERNAME}?start=${video.file_unique_id}\n\n<b>Album Link:</b>`,{
+                                ctx.reply(`✔️ Video disimpan \n<b>Size:</b> ${video.file_size} B\n<b>ID file:</b> ${video.file_unique_id}\n\nSingle Link:\n</b>https://t.me/${process.env.BOTUSERNAME}?start=${video.file_unique_id}\n\n<b>Album Link:</b>\n`,{
                                     parse_mode: 'HTML',
                                     disable_web_page_preview: true,
                                     reply_to_message_id: ctx.message.message_id
@@ -1727,12 +1727,12 @@ bot.on('video', async(ctx, next) => {
                             if(ctx.message.caption == undefined)
                                 return ctx.replyWithVideo(video.file_id, {
                                     chat_id: process.env.LOG_CHANNEL,
-                                    caption: `✔️ Video disimpan \n<b>Channel BOT:</b> @mantapfilestorage\n<b>Channel Download:</b> @mantapvids\n<b>Uploader:</b> <a href="tg://openmessage?user_id=${ctx.from.id}">${first_name(ctx)} ${last_name(ctx)}</a>\n\n<b>Size:</b> ${video.file_size} B\n<b>ID file:</b> ${video.file_id}\n\nSingle Link:\n</b>https://t.me/${process.env.BOTUSERNAME}?start=${video.file_unique_id}\n\n<b>Album Link:</b>`,
+                                    caption: `✔️ Video disimpan \n<b>Channel BOT:</b> @mantapfilestorage\n<b>Channel Download:</b> @mantapvids\n<b>Uploader:</b> <a href="tg://openmessage?user_id=${ctx.from.id}">${first_name(ctx)} ${last_name(ctx)}</a>\n\n<b>Size:</b> ${video.file_size} B\n<b>ID file:</b> ${video.file_id}\n\nSingle Link:\n</b>https://t.me/${process.env.BOTUSERNAME}?start=${video.file_unique_id}\n\n<b>Album Link:</b>\n`,
                                     parse_mode:'HTML'
                                 })
                                 ctx.replyWithVideo(video.file_id, {
                                     chat_id: process.env.LOG_CHANNEL,
-                                    caption: `${ctx.message.caption}\n\n✔️ Video disimpan \n<b>Channel BOT:</b> @mantapfilestorage\n<b>Channel Download:</b> @mantapvids\n<b>Uploader:</b> <a href="tg://openmessage?user_id=${ctx.from.id}">${first_name(ctx)} ${last_name(ctx)}</a>\n\n<b>Size:</b> ${video.file_size} B\n<b>ID file:</b> ${video.file_id}\n\nSingle Link:\n</b>https://t.me/${process.env.BOTUSERNAME}?start=${video.file_unique_id}\n\n<b>Album Link:</b>`,
+                                    caption: `${ctx.message.caption}\n\n✔️ Video disimpan \n<b>Channel BOT:</b> @mantapfilestorage\n<b>Channel Download:</b> @mantapvids\n<b>Uploader:</b> <a href="tg://openmessage?user_id=${ctx.from.id}">${first_name(ctx)} ${last_name(ctx)}</a>\n\n<b>Size:</b> ${video.file_size} B\n<b>ID file:</b> ${video.file_id}\n\nSingle Link:\n</b>https://t.me/${process.env.BOTUSERNAME}?start=${video.file_unique_id}\n\n<b>Album Link:</b>\n`,
                                     parse_mode:'HTML'
                                 })
                         }
@@ -1741,7 +1741,7 @@ bot.on('video', async(ctx, next) => {
                     if(video.file_name == undefined){
                         if(ctx.chat.type == 'private') {
                                 saver.saveFile(fileDetails3)
-                                ctx.reply(`✔️ Grup disimpan \n<b>Size:</b> ${video.file_size} B\n<b>ID file:</b> ${video.file_unique_id}\n<b>ID grup:</b> ${ctx.message.media_group_id}\n\nSingle Link:\n</b>https://t.me/${process.env.BOTUSERNAME}?start=${video.file_unique_id}\n\n<b>Album Link:</b>\nhttps://t.me/${process.env.BOTUSERNAME}?start=grp_${ctx.message.media_group_id}`,{
+                                ctx.reply(`✔️ Grup disimpan \n<b>Size:</b> ${video.file_size} B\n<b>ID file:</b> ${video.file_unique_id}\n<b>ID grup:</b> ${ctx.message.media_group_id}\n\nSingle Link:\n</b>https://t.me/${process.env.BOTUSERNAME}?start=${video.file_unique_id}\n\n<b>Album Link:</b>\n\nhttps://t.me/${process.env.BOTUSERNAME}?start=grp_${ctx.message.media_group_id}`,{
                                     parse_mode: 'HTML',
                                     disable_web_page_preview: true,
                                     reply_to_message_id: ctx.message.message_id
@@ -1749,7 +1749,7 @@ bot.on('video', async(ctx, next) => {
                             if(ctx.message.caption == undefined)                   
                                 return ctx.replyWithVideo(video.file_id, {
                                     chat_id: process.env.LOG_CHANNEL,
-                                    caption: `✔️ Grup disimpan \n<b>Channel BOT:</b> @mantapfilestorage\n<b>Channel Download:</b> @mantapvids\n<b>Uploader:</b> <a href="tg://openmessage?user_id=${ctx.from.id}">${first_name(ctx)} ${last_name(ctx)}</a>\n\n<b>Size:</b> ${video.file_size} B\n<b>ID file:</b> ${video.file_id}\n<b>ID grup:</b> ${ctx.message.media_group_id}\n\nSingle Link:\n</b>https://t.me/${process.env.BOTUSERNAME}?start=${video.file_unique_id}\n\n<b>Album Link:</b>\nhttps://t.me/${process.env.BOTUSERNAME}?start=grp_${ctx.message.media_group_id}`,
+                                    caption: `✔️ Grup disimpan \n<b>Channel BOT:</b> @mantapfilestorage\n<b>Channel Download:</b> @mantapvids\n<b>Uploader:</b> <a href="tg://openmessage?user_id=${ctx.from.id}">${first_name(ctx)} ${last_name(ctx)}</a>\n\n<b>Size:</b> ${video.file_size} B\n<b>ID file:</b> ${video.file_id}\n<b>ID grup:</b> ${ctx.message.media_group_id}\n\nSingle Link:\n</b>https://t.me/${process.env.BOTUSERNAME}?start=${video.file_unique_id}\n\n<b>Album Link:</b>\n\nhttps://t.me/${process.env.BOTUSERNAME}?start=grp_${ctx.message.media_group_id}`,
                                     parse_mode:'HTML'
                                 })
                                 ctx.replyWithVideo(video.file_id, {
@@ -1761,7 +1761,7 @@ bot.on('video', async(ctx, next) => {
                     }else{
                         if(ctx.chat.type == 'private') {
                                 saver.saveFile(fileDetails4)
-                                ctx.reply(`✔️ Grup disimpan \n<b>Size:</b> ${video.file_size} B\n<b>ID file:</b> ${video.file_unique_id}\n<b>ID grup:</b> ${ctx.message.media_group_id}\n\nSingle Link:\n</b>https://t.me/${process.env.BOTUSERNAME}?start=${video.file_unique_id}\n\n<b>Album Link:</b>\nhttps://t.me/${process.env.BOTUSERNAME}?start=grp_${ctx.message.media_group_id}`,{
+                                ctx.reply(`✔️ Grup disimpan \n<b>Size:</b> ${video.file_size} B\n<b>ID file:</b> ${video.file_unique_id}\n<b>ID grup:</b> ${ctx.message.media_group_id}\n\nSingle Link:\n</b>https://t.me/${process.env.BOTUSERNAME}?start=${video.file_unique_id}\n\n<b>Album Link:</b>\n\nhttps://t.me/${process.env.BOTUSERNAME}?start=grp_${ctx.message.media_group_id}`,{
                                     parse_mode: 'HTML',
                                     disable_web_page_preview: true,
                                     reply_to_message_id: ctx.message.message_id
@@ -1769,12 +1769,12 @@ bot.on('video', async(ctx, next) => {
                             if(ctx.message.caption == undefined)                   
                                 return ctx.replyWithVideo(video.file_id, {
                                     chat_id: process.env.LOG_CHANNEL,
-                                    caption: `✔️ Grup disimpan \n<b>Channel BOT:</b> @mantapfilestorage\n<b>Channel Download:</b> @mantapvids\n<b>Uploader:</b> <a href="tg://openmessage?user_id=${ctx.from.id}">${first_name(ctx)} ${last_name(ctx)}</a>\n\n<b>Size:</b> ${video.file_size} B\n<b>ID file:</b> ${video.file_id}\n<b>ID grup:</b> ${ctx.message.media_group_id}\n\nSingle Link:\n</b>https://t.me/${process.env.BOTUSERNAME}?start=${video.file_unique_id}\n\n<b>Album Link:</b>\nhttps://t.me/${process.env.BOTUSERNAME}?start=grp_${ctx.message.media_group_id}`,
+                                    caption: `✔️ Grup disimpan \n<b>Channel BOT:</b> @mantapfilestorage\n<b>Channel Download:</b> @mantapvids\n<b>Uploader:</b> <a href="tg://openmessage?user_id=${ctx.from.id}">${first_name(ctx)} ${last_name(ctx)}</a>\n\n<b>Size:</b> ${video.file_size} B\n<b>ID file:</b> ${video.file_id}\n<b>ID grup:</b> ${ctx.message.media_group_id}\n\nSingle Link:\n</b>https://t.me/${process.env.BOTUSERNAME}?start=${video.file_unique_id}\n\n<b>Album Link:</b>\n\nhttps://t.me/${process.env.BOTUSERNAME}?start=grp_${ctx.message.media_group_id}`,
                                     parse_mode:'HTML'
                                 })
                                 ctx.replyWithVideo(video.file_id, {
                                     chat_id: process.env.LOG_CHANNEL,
-                                    caption: `${ctx.message.caption}\n\n✔️ Grup disimpan \n<b>Channel BOT:</b> @mantapfilestorage\n<b>Channel Download:</b> @mantapvids\n<b>Uploader:</b> <a href="tg://openmessage?user_id=${ctx.from.id}">${first_name(ctx)} ${last_name(ctx)}</a>\n\n<b>Size:</b> ${video.file_size} B\n<b>ID file:</b> ${video.file_id}\n<b>ID grup:</b> ${ctx.message.media_group_id}\n\nSingle Link:\n</b>https://t.me/${process.env.BOTUSERNAME}?start=${video.file_unique_id}\n\n<b>Album Link:</b>\nhttps://t.me/${process.env.BOTUSERNAME}?start=grp_${ctx.message.media_group_id}`,
+                                    caption: `${ctx.message.caption}\n\n✔️ Grup disimpan \n<b>Channel BOT:</b> @mantapfilestorage\n<b>Channel Download:</b> @mantapvids\n<b>Uploader:</b> <a href="tg://openmessage?user_id=${ctx.from.id}">${first_name(ctx)} ${last_name(ctx)}</a>\n\n<b>Size:</b> ${video.file_size} B\n<b>ID file:</b> ${video.file_id}\n<b>ID grup:</b> ${ctx.message.media_group_id}\n\nSingle Link:\n</b>https://t.me/${process.env.BOTUSERNAME}?start=${video.file_unique_id}\n\n<b>Album Link:</b>\n\nhttps://t.me/${process.env.BOTUSERNAME}?start=grp_${ctx.message.media_group_id}`,
                                     parse_mode:'HTML'
                                 })
                         }
